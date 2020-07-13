@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>shalom</title>
+	<script>
+
+		function ex1() {
+			var num = Number(document.getElementById("txt").value);
+			
+			for (var i = 0; i <= num; i++){
+				console.log(i);
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>ex1:</h1>
+	<input id="btn" type="button" onclick="ex1()">
+	<input id="txt" type="text">
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<table>
+		<tr>
+			<td>Num1:</td>
+			<td><input id="num1" type="text"></td>
+		</tr>
+		<tr>
+			<td>Num2:</td>
+			<td><input id="num2" type="text"></td>
+		</tr>
+		<tr>
+			<td><input id="add" type="button" onclick="add()" value="+"></td>
+			<td><input id="sub" type="button" onclick="sub()" value="-"></td>
+			<td><input id="mul" type="button" onclick="mul()" value="*"></td>
+		</tr>
+	</table>
+	
+</body>
+</html>

@@ -1,0 +1,19 @@
+table, tr, td {
+    border: 3px black solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+button{
+    width: 50%;
+    height: 50%;
+}
+
+div{
+    float: left;
+}
